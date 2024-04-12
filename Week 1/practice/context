@@ -1,0 +1,27 @@
+Context
+Close to 800,000 people die due to suicide every year, which is one person every 40 seconds. Suicide is a global phenomenon and occurs throughout a person's possible lifespan. Effective and evidence-based interventions can be implemented at population, sub-population, and individual levels to prevent suicide and suicide attempts. There are indications that for each adult who actually died by suicide, there may have been 20 others or more attempting suicide in addition.
+
+Objective
+The objective of this case study is to find patterns for increased suicide rates among different cohorts globally across the socioeconomic spectrum, by using exploratory data analysis.
+
+Data Dictionary
+We will be using the dataset about suicide rates from 1985 to 2016.
+ This dataset has the following attributes:
+
+country: Country
+year: Year
+sex: Sex (male or female)
+age: Suicide age range, ages divided into six categories
+suicides_no: number of suicides
+population: population of that sex, in that age range, in that country, and in that year
+suicides/100k pop: Number of suicides per 100k population
+gdp_for_year($): GDP of the country in that year in dollars
+gdp_per_capita($): Ratio of the country’s GDP and its population
+generation: Generation of the suicides in question, being possible 6 different categories
+Questions to explore
+Is the suicide number more prominent in some age categories than others?
+Which countries have the highest and the least number of suicides?
+What is the effect of population on suicide numbers?
+What is the effect of the GDP of a country on suicide numbers?
+What is the yearly trend of suicide numbers across all years?
+Is there a difference between the suicide numbers of men and women?
